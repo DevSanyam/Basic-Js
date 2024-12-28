@@ -1,0 +1,10 @@
+Title: Interactive To-Do List
+
+Features: -> Add, delete, and mark tasks as completed.
+          -> Save tasks to local storage so they persist across page reloads.
+
+Key Concepts: DOM manipulation, event handling, and local storage.
+
+Enhancements: Add categories, a task due date, or a priority level.
+
+Date: 18-12-2024

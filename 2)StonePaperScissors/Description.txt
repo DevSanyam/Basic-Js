@@ -1,0 +1,4 @@
+Title : StonePaperScissors game
+Objective: to create a stone paper scissors game using simple html css & javaScript
+tutor: shradha khapra
+date: 16-12-2024

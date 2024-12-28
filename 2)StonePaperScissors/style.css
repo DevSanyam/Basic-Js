@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+}
+
+nav {
+  background-color: black;
+  color: #fefae0;
+  text-align: center;
+  padding: 15px 0px;
+}
+
+nav h1{
+    font-size: 36px;
+
+}
+
+.playArea {
+  width: 70vw;
+  height: 100vh;
+  text-align: center;
+  margin: auto;
+}
+
+button {
+  border: none;
+  border-radius: 50%;
+  width: 125px;
+  height: 125px;
+  cursor: pointer;
+  background-size: cover;
+  background-position: center;
+}
+
+button:hover{
+    border: solid 10px black;
+}
+#stone {
+  background-image: url(./media/rock.png);
+}
+#paper {
+  background-image: url(./media/paper.png);
+}
+#scissors {
+  background-image: url(./media/scissors.png);
+}
+
+.game {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+}
+.score {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  
+}
+
+.player {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#PointUser {
+  text-align: center;
+}
+
+#PointComp {
+  text-align: center;
+}
+
+footer{
+    margin: 2rem;
+}
+#result{
+    background-color:black ;
+    color: #fefae0;
+    padding: 0.75rem;
+    margin: 0.75rem;
+    border-radius: 15px;
+}

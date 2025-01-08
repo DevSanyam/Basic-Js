@@ -32,3 +32,15 @@ header{
 main li{
     display: flex;
 }
+
+li p{
+    border:solid black 1px;
+    display: inline;
+    width: 97vw;
+    height: 5vh;
+    
+}
+
+li button{
+    width: 3vw
+}
